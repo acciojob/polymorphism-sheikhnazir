@@ -12,7 +12,7 @@ public static void main(String[] args) {
 
     System.out.println(ans +" " + ans1 +" " + ans2);
 }
-    private static  class Product {
+    public static  class Product {
         int x;
         int y;
 
