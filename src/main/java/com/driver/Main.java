@@ -3,7 +3,7 @@ package com.driver;
 
 public  class Main {
 public static void main(String[] args) {
-    product p = new product();
+    Product p = new Product();
     int ans = p.product(5, 7);
 
     int ans1 = p.product(5, 7, 8);
@@ -12,7 +12,7 @@ public static void main(String[] args) {
 
     System.out.println(ans +" " + ans1 +" " + ans2);
 }
-    private static  class product {
+    private static  class Product {
         int x;
         int y;
 
